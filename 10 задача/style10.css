@@ -8,14 +8,13 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat;
     font-style: normal;
     margin: 0px;
-    }
+}
 
 .name {
     font-weight: 600;
     font-size: 17px;
     line-height: 21px;
     color: black;
-    /* position: absolute; */
 }
 
 .price {
@@ -23,8 +22,8 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 17px;
     line-height: 21px;
     color: #FFA542;
-    /* position: absolute;*/
 }
+
 .img1{
     background-image: url(Image.png);
     background-repeat:no-repeat;
@@ -32,6 +31,7 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 237px;
     margin: 15.1px 64px 0px 65px;
 }
+
 .img2 {
     background-image: url(Image1.png);
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 237px;
     margin: 15.1px 64px 0px 65px;
 }
+
 .img3 {
     background-image: url(Image2.png);
     background-repeat: no-repeat;
@@ -56,6 +57,9 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 24px;
     color: #838383;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 15px;
 }
 
 .block-one, .block-two, .block-three {
@@ -78,6 +82,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .two1, .two2, .two3 {
     background: #FFCE7F;
 }
+
 .text-block1, .text-block2, .text-block3{
     display: flex;
     justify-content: space-between;
@@ -85,9 +90,21 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .text-block1, .text-block2{
     margin: 54px 35px 25px 21px;
-
 }
 
 .text-block3{
     margin: 72px 35px 25px 21px;
+}
+
+span{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #838383;
+    position: absolute;
+    margin: 3px 10px;
+}
+
+.star{
+    margin-left: 18px;
 }
