@@ -1,0 +1,9 @@
+body {
+    background: url(wr.jpg);
+}
+p{
+    text-align: left;
+}
+div{
+    max-width: 40%;
+}

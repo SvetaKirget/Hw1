@@ -1,0 +1,62 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    font-style: normal;
+}
+.name1, .name2, .name3 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: black;
+    padding: 307px 204.04px 79.65px 21.96px;
+}
+
+.price1, .price2, .price3 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+    padding: 307px 35px 79.65px 271px;
+}
+    
+
+.container {
+    display: flex;
+}
+
+.main-label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+}
+
+.block-one, .block-two, .block-three {
+    width: 350px;
+    height: 407.65px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.one1, .one2, .one3 {
+    width: 20px;
+    height: 18.48px;
+    padding: 15.35px 308px 373.81px 22px;
+}
+
+.img1, .img2, .img3 {
+    width: 219.61px;
+    height: 237.45px;
+    padding: 15.1px 64.51px 155.1px 65.88px;
+}
+
+.two1, .two2, .two3 {
+    background: #FFCE7F;
+}
