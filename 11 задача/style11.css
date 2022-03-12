@@ -1,40 +1,57 @@
-header{
-position: absolute;
-width: 523px;
-height: 33px;
-
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 29px;
-line-height: 33px;
-text-align: center;
-
-color: #000000;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-.text{
-    width: 523px;
-    height: 21px;
-    
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
+h1{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+.text1{
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #555555;
+    margin-bottom: 59px;
 }
-
-.footer {
-width: 132px;
-height: 18px;
-
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-color: #555555;
+.container_input{
+    width: 640px;
+    height: 45px;
+    border: 1px solid #FE2C55;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
 }
-
+.input{
+    width: 515px;
+    }
+.button{
+    width: 125px;
+    height: 45px;
+    background: #FE2C55;
+    border: 1px solid #FE2C55;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 4px 4px 0px;
+    padding: 9px 3px 10px 16px;
+}
+.input p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #888888;
+    font-weight: 400;
+    margin: 12px 0px 8px 12px;
+}
+.button span{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+   
